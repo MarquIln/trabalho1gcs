@@ -6,9 +6,6 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class GreeterTest {
-
-    private Beecrowd_1133 greeter = new Beecrowd_1133();
-
     @Test
     public void teste_Beecrowd_1133_1() {
         assertEquals(12, Beecrowd_1133.solucao(10,18));
