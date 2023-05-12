@@ -1,6 +1,8 @@
 package hello;
 
 import static org.junit.Assert.*;
+
+import org.junit.Assert;
 import org.junit.Test;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -75,7 +77,15 @@ public class GreeterTest {
 
         assertEquals(expectedOutput, out.toString());
     }
-
+   @Test
+    public void testEhPrimo() {
+        Beecrowd_1165 VerificarPrimo = null;
+        Assert.assertTrue( VerificarPrimo.ehPrimo(2));
+        Assert.assertFalse(VerificarPrimo.ehPrimo(4));
+        Assert.assertTrue(VerificarPrimo.ehPrimo(17));
+        Assert.assertTrue(VerificarPrimo.ehPrimo(10000019));
+        Assert.assertFalse(VerificarPrimo.ehPrimo(10000000));
+    }
     @Test
     public void teste4Beecrowd1143() {
         String input = "15\n";
