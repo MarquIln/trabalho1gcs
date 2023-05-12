@@ -15,6 +15,20 @@ public class GreeterTest {
     private Beecrowd_1143 teste3Beecrowd1143 = new Beecrowd_1143();
     private Beecrowd_1143 teste4Beecrowd1143 = new Beecrowd_1143();
 
+
+    @Test
+    public void teste_Beecrowd_1133_1() {
+        assertEquals(12, Beecrowd_1133.solucao(10,18));
+    }
+    @Test
+    public void teste_Beecrowd_1133_2() {
+        assertEquals(22, Beecrowd_1133.solucao(20,30));
+    }
+    @Test
+    public void teste_Beecrowd_1133_3() {
+        assertEquals(22, Beecrowd_1133.solucao(30,20));
+    }
+
     @Test
     public void teste1Beecrowd1143() {
         String input = "5\n";
