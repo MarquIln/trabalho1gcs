@@ -11,11 +11,6 @@ import java.io.PrintStream;
 
 public class GreeterTest {
     private Greeter greeter = new Greeter();
-    private Beecrowd_1143 teste1Beecrowd1143 = new Beecrowd_1143();
-    private Beecrowd_1143 teste2Beecrowd1143 = new Beecrowd_1143();
-    private Beecrowd_1143 teste3Beecrowd1143 = new Beecrowd_1143();
-    private Beecrowd_1143 teste4Beecrowd1143 = new Beecrowd_1143();
-
 
     @Test
     public void teste_Beecrowd_1133_1() {
